@@ -7,4 +7,4 @@ softmax = nn.Softmax(dim=2)
 
 t = torch.rand((2,2,2))
 
-print(softmax(t))
+print(t[:,-1,:].shape)
