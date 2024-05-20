@@ -1,1 +1,5 @@
-## Solutions to NeetCode's ML problems
+# Solutions to NeetCode's ML problems
+
+These are my solutions to [problems](https://neetcode.io/problems/gradient-descent) taking you through the training process of neural networks, PyTorch basics, building the GPT network and handling its outputs to generate text, all programmed from scratch. I recommend anyone interested in the details of GPT models and transformers to complete these by themselves; it is of paramount benefit to your understanding! The videos linked for the most challenging tasks are extremely helpful (they contain some hints and clarifications but no explicit answers), so watch them before attempting those.
+
+**P.S.** When checking testing your solution with the "Run" button, make sure you have initialised your layers in the same order as the author does (you can check it in the "Solution" section when your test case is running fine and the output is of the same shape, but the actual numbers are different). Also, don't use `nn.Sequential` before it is explicitly mentioned, as it can mess up the weight initialisation.
